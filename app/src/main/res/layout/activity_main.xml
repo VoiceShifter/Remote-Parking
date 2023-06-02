@@ -13,6 +13,36 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginHorizontal="32dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+
+            android:id="@+id/aLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Login"
+            android:inputType="text"
+            android:maxLength="15"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="417dp"
+            tools:ignore="MissingConstraints" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/aPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="text"
+            android:maxLength="15"
+            android:textColor="@color/BackGroundColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="476dp"
+            tools:ignore="MissingConstraints" />
+
         <ImageView
             android:id="@+id/LogoImage"
             android:layout_width="wrap_content"
@@ -31,9 +61,10 @@
             android:layout_height="wrap_content"
             android:text="Log In"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="450dp"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="554dp" />
 
         <Button
             android:id="@+id/RegisterButton"
@@ -41,9 +72,10 @@
             android:layout_height="wrap_content"
             android:text="Register"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="550dp"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="620dp" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
